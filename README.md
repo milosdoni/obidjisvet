@@ -1,5 +1,6 @@
 # Obidji Svet
 
-Ovde ce se nalaziti HTML/CSS, mozda i Java script, koji cini moju licnu web stranicu.
-Adresa moje licne web stranice jeste:
+Želiš da znaš zanimljive činjenice o svim kontinentima?
+Voliš da posećuješ svetske znamenitosti i kulturne manifestacije?
+Putuj, nauči,istraži:
 https://obidjisvet.github.io
