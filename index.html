@@ -3,9 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Obidji Svet</title>
+    <title>Travel Landing Page</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-   Pa obidji svet! 
+<section class="showcase">  
+<header>
+    <h2 class="logo">Putovanje</h2>
+    <div class="toggle"></div>
+</header> 
+    <video src="Pexels Videos 2812539.mp4" muted loop autoplay></video>
+    <div class="overlay"></div>
+    <!-- <div class="header"></div> -->
+
+    <div class="text">
+    <h2>Nikada Ne Odustajte</h2>
+    <h3>Istraživati Svet</h3>
+    <p> Želiš da znaš zanimljive činjenice o svim kontinentima? Zanimaju te tradicionalniplesovi i nesvakidašnje životinje? Voliš da posećuješ svetske znamenitosti ikulturne manifestacije, ali ne znaš koje su najčuvenije?
+        Putuj, nauči,istraži.  
+    </p>
+    <a href="#">Istraži</a>
+</div>
+<ul class="social">
+  <li><a href="https://www.facebook.com/milosdoni/"><img src="https://i.ibb.co/x7P24fL/facebook.png"></a></li>
+  <li><a href="https://www.twitter.com/milosdoni2"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png"></a></li>
+  <li><a href="https://www.instagram.com/milosi94/"><img src="https://i.ibb.co/ySwtH4B/instagram.png"></a></li>
+</ul>
+</section>
+
+<div class="menu">
+<ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">News</a></li>
+    <li><a href="#">Destination</a></li>
+    <li><a href="#">Contact</a></li>
+    </div>
+</ul>
+</div>
+
+<script>
+    const menuToggle = document.querySelector('.toggle')  
+    const showcase = document.querySelector('.showcase')   
+    
+    menuToggle.addEventListener('click', () =>{
+        menuToggle.classList.toggle('active')
+        showcase.classList.toggle('active')
+    })
+</script>
 </body>
 </html>
